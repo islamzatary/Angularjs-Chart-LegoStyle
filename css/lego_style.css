@@ -1,0 +1,96 @@
+body {
+	background:#ECECEC;
+}
+#main-header {
+	padding:10px 20px;
+	height: 70px;
+	background: #FFF;
+	box-shadow:0 1px 5px #ccc
+}
+#logo {
+	width:200px;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+#logo img {
+	max-height:50px;
+	margin:0 10px 0 0;
+}
+#ar #logo img {
+	margin:0 0 0 10px;
+}
+#lego-navbar {
+	overflow:auto;
+}
+#main-wrapper {
+	position:relative;
+}
+#sidebar-panel {
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	width:200px;
+	background:#193342;
+}
+#ar #sidebar-panel {
+	left:auto;
+	right:0;
+}
+#sidebar-panel .nav-menu {
+	background:#193342;
+}
+#content-panel {
+	padding:20px;
+	margin:0 0 0 200px;	
+	min-height:400px;
+}
+#ar #content-panel {
+		margin:0 200px 0 0;	
+}
+footer {
+}
+.quicksearch {
+
+}
+.quicksearch input {
+	background:#ECECEC;
+}
+.nav-menu {}
+.nav-menu li {
+}
+.nav-menu li a {
+	color:#FFF;
+	text-decoration: none;
+	display: block;
+	padding:10px;
+}
+.nav-menu li a:hover {
+	background:#224354;
+}
+h1, h2, h3 {
+	color:#3C3C3B;
+}
+.subnav-menu {
+	display:none;
+	margin:0;
+}
+.subnav-menu li a {
+	padding:5px 5px 5px 20px;
+}
+#ar .subnav-menu li a {
+	padding:5px 20px 5px 5px;
+}
+.widget-box {
+	border:0;
+}
+.widget-header h2 {
+	margin:0;
+}
+.widget-box, .widget-header {
+	border-radius:3px;
+	background:#FFF;
+}
+.widget-header {
+	border-bottom:1px solid #F5F5F5;
+}

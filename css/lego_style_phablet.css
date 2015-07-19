@@ -1,0 +1,64 @@
+/************** Desktop Min 1200 *************/
+@media only screen and (min-width: 1200px) {
+    
+}
+/************** Desktop Min 1140 *************/
+@media only screen and (min-width: 1140px) {
+    
+}
+/************** Desktop Default *************/
+@media only screen and (min-width: 1024px) {
+    
+}
+/************** Table to Mini Desktop *************/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	#content-panel {padding:0;}
+	#content, #ar #content {padding:10px;}
+	#main-wrapper, #main-header, #content, #ar #content {min-width:auto;}
+	.wg_grid_2 {
+		width: 98%;
+	}
+	.wg_grid_1 {
+		width: 49%;
+	}
+	ul.horizontal_list li {
+		display:block;
+		height: 100px;
+		margin: 0 1% 10px 0;
+		padding: 15px 10px;
+		width: 49%;
+		float:left;
+		border-bottom:1px solid #ECECEC;
+	}
+	#ar ul.horizontal_list li {
+		margin: 0 0 10px 1%;
+		float:right;
+	}
+}
+/************** Phone to Mini Tablet *************/
+@media only screen and (max-width: 767px) {
+	#content-panel {padding:0;}
+	#content, #ar #content {padding:10px;}
+	#main-wrapper, #main-header, #content, #ar #content {min-width:auto;}
+	.wg_grid_2, .wg_grid_1 {
+		width: 98%;
+	}
+	ul.horizontal_list li, #ar ul.horizontal_list li {
+		display:block;
+		height: 100px;
+		padding: 15px 10px;
+		border-bottom:1px solid #ECECEC;
+	}
+	#main-header {
+		height:60px;
+		margin:0;
+		transition:margin 0.5s;
+	}
+	#content-panel, #ar #content-panel {
+		margin:0;
+		transition:margin 0.5s;
+	}
+	#logo img {
+		max-height:40px;
+	}
+}
